@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Google Apps]">
+  <test thread-count="5" name="PilotUi_Trail(failed)">
+    <classes>
+      <class name="Test_pilotUi.Vuelogix_Test">
+        <methods>
+          <include name="UploadFile"/>
+        </methods>
+      </class> <!-- Test_pilotUi.Vuelogix_Test -->
+    </classes>
+  </test> <!-- PilotUi_Trail(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->

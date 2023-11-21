@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing vuelogix">
+	<test name="TestNG_pilotUi">
+		<classes>
+			<class name="Websites.chrome" />
+			<class name="Websites.EdgeWebsite" />
+			<class name="Websites.firefox" />
+		</classes>
+	</test>
+</suite>

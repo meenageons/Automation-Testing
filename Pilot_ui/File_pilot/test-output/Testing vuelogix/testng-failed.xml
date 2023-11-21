@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing vuelogix]">
+  <test thread-count="5" name="TestNG_pilotUi(failed)">
+    <classes>
+      <class name="Websites.EdgeWebsite">
+        <methods>
+          <include name="UploadFile"/>
+        </methods>
+      </class> <!-- Websites.EdgeWebsite -->
+    </classes>
+  </test> <!-- TestNG_pilotUi(failed) -->
+</suite> <!-- Failed suite [Testing vuelogix] -->
